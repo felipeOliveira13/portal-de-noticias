@@ -14,9 +14,30 @@
 
 
 
-  --font-family: "Poppins", sans-serif;
-  --text-lg: bold 32px/125% var(--font-family);
-  --text: 16px/150% var(--font-family);
-  --text-md: 14px/170% var(--font-family);
-  --text-sm: 12px/170% var(--font-family);
+  --font-family: 'Archivo', sans-serif;
+  --h1: 800 24px/135% var(--font-family);
+  --h2: 800 16px/140% var(--font-family);
+  --h3: 800 14px/140% var(--font-family);
+  --text-span: 600 14px/145% var(--font-family);
+  --text: 400 16px/140% var(--font-family);
+  --text-sm: 400 14px/160% var(--font-family)
+}
+
+body {
+  font: var(--text);
+  background-color: var(--bg-color);
+  color: var(--text-color-primary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: var(--brand-color-light);
+}
+
+h1, h2, h3 {
+  font: inherit;
 }
